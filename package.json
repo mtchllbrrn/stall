@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hz serve --dev",
-    "lint": "eslint --ext .js,.jsx ."
+    "lint": "eslint --ext .js,.jsx .",
+    "build": "./node_modules/.bin/webpack -d"
   },
   "repository": {
     "type": "git",
@@ -25,5 +26,9 @@
     "eslint-plugin-import": "1.6.1",
     "eslint-plugin-jsx-a11y": "1.0.4",
     "eslint-plugin-react": "5.0.1"
+  },
+  "dependencies": {
+    "@horizon/client": "^1.0.2",
+    "webpack": "^1.13.1"
   }
 }
