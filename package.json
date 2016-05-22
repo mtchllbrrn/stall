@@ -7,7 +7,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hz serve --dev",
     "lint": "eslint --ext .js,.jsx .",
-    "build": "./node_modules/.bin/webpack -d"
+    "build": "webpack -d"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,11 @@
   },
   "dependencies": {
     "@horizon/client": "^1.0.2",
+    "babel-loader": "^6.2.4",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
     "webpack": "^1.13.1"
   }
 }
