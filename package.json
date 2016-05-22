@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "hz serve --dev",
     "lint": "eslint --ext .js,.jsx .",
-    "build": "webpack -d"
+    "build": "webpack -p",
+    "dev": "webpack -d --watch"
   },
   "repository": {
     "type": "git",
