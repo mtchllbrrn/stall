@@ -1,4 +1,6 @@
 import React from 'react';
+import List from './List/List.jsx';
+import Input from './Input/Input.jsx';
 
 // class App extends React.Component {
   // render() {
@@ -7,7 +9,12 @@ import React from 'react';
 // }
 
 function App() {
-  return <p>Hello foobar!</p>;
+  return (
+    <div>
+      <List />
+      <Input />
+    </div>
+  );
 }
 
 export default App;
