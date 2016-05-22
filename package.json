@@ -1,0 +1,29 @@
+{
+  "name": "stall",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "hz serve --dev",
+    "lint": "eslint --ext .js,.jsx ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mtchllbrrn/stall.git"
+  },
+  "keywords": [],
+  "author": "Mitchell Barron <hello@mitchellbarron.io> (http://mitchellbarron.io)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mtchllbrrn/stall/issues"
+  },
+  "homepage": "https://github.com/mtchllbrrn/stall#readme",
+  "devDependencies": {
+    "eslint": "^2.9.0",
+    "eslint-config-airbnb": "8.0.0",
+    "eslint-plugin-import": "1.6.1",
+    "eslint-plugin-jsx-a11y": "1.0.4",
+    "eslint-plugin-react": "5.0.1"
+  }
+}
